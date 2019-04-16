@@ -1,5 +1,5 @@
 # Output W3C Scalable Vector Graphics
-set terminal svg size 1600, 400
+set terminal svg size 1000, 400
 
 # Read comma-delimited data from file
 set datafile separator comma
@@ -27,4 +27,4 @@ set format x "%m/%d %H:%M"
 # title columnheader  Use the column headers (first row) as titles
 # linewidth 4         Use a wider line width
 #
-plot 'usage.csv' using ($4+(+8*3600)):3 linewidth 4
+plot 'usage.csv' using ($4+(+8*3600)):3 linewidth 1
