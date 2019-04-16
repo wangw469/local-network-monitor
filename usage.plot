@@ -18,7 +18,7 @@ set style data line
 
 set xdata time
 set timefmt "%s"
-set format x "%m/%d %H:%M"
+set format x "%H:%M"
 
 # Plot data from a file, with extra notes below:
 #
