@@ -16,6 +16,8 @@ set ylabel 'Ping Time'
 # Use a line graph
 set style data line
 
+set yrange [0:5]
+
 set xdata time
 set timefmt "%s"
 set format x "%H:%M"
