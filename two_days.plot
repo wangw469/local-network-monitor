@@ -5,7 +5,7 @@ set terminal svg size 1000, 400
 set datafile separator comma
 
 # Set graph title
-set title 'Web site ping test'
+set title 'Web site ping test(two days)'
 
 # Set label of x-axis
 set xlabel 'Date'
@@ -29,4 +29,4 @@ set format x "%H:%M"
 # title columnheader  Use the column headers (first row) as titles
 # linewidth 4         Use a wider line width
 #
-plot 'usage.csv' using ($4+(+8*3600)):3 linewidth 1
+plot 'two_days.csv' using ($4+(+8*3600)):3 linewidth 1
