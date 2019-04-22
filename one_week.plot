@@ -20,7 +20,7 @@ set yrange [0:5]
 
 set xdata time
 set timefmt "%s"
-set format x "%H:%M"
+set format x "%m-%d %H:%M"
 
 # Plot data from a file, with extra notes below:
 #
